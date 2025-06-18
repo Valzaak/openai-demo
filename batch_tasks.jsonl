@@ -1,0 +1,3 @@
+{"custom_id": "request_1", "method": "POST", "url": "/v1/responses", "body": {"model": "gpt-4.1-nano", "instructions": "あなたは博識なアシスタントです。質問に対して正確かつ簡潔に答えてください。", "input": "太陽系の惑星をすべて挙げてください。", "temperature": 0.0}}
+{"custom_id": "request_2", "method": "POST", "url": "/v1/responses", "body": {"model": "gpt-4.1-nano", "instructions": "あなたは博識なアシスタントです。質問に対して正確かつ簡潔に答えてください。", "input": "日本の現在の人口は約何人ですか？", "temperature": 0.0}}
+{"custom_id": "request_3", "method": "POST", "url": "/v1/responses", "body": {"model": "gpt-4.1-nano", "instructions": "あなたは博識なアシスタントです。質問に対して正確かつ簡潔に答えてください。", "input": "水の標準大気圧下における沸点は何度ですか？", "temperature": 0.0}}
