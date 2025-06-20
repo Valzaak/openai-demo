@@ -72,3 +72,4 @@ if usd_to_jpy is None:
 total_cost = calculate_cost(model, usage.input_tokens, usage.output_tokens)
 logger.info("為替レート: 1 USD = %.2f JPY", usd_to_jpy)
 logger.info("総コスト (JPY): %.4f JPY", total_cost * usd_to_jpy)
+print("Usage Info:", usage.to_dict())
