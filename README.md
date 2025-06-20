@@ -67,5 +67,3 @@
 ```shell
 $ python xxxx.py # 環境によっては python3 になるかもしれません
 ```
-
-# 注意事項
