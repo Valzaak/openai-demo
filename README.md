@@ -27,7 +27,7 @@
    - このリポジトリの作成者は pyenv + venv で環境を構築しています（余裕があったら Dockerfile を作るかもしれないし作らないかもしれない）
    ```shell
    $ pyenv install 3.10.6
-   $ pyenv local 3.10.6
+   $ pyenv local 3.10.6 # pythonのversionが反映されているか確認してください。
    $ python -m venv .venv
    $ source .venv/bin/activate # macOS/Linux の場合
    ($ .venv\Scripts\activate) # Windows の場合（違うかも？）
